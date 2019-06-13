@@ -14,9 +14,9 @@ public class DataToCubeMatrixConverter {
 	
 	private static Logger logger = LogManager.getLogger(DataToCubeMatrixConverter.class);
 	
-	public static Matrix convert(String data) {
+	public Matrix convert(String data) {
 		String[] dataRow = data.split("[\n]");
-		Matrix matrix = new CubeMatrix();
+		Matrix matrix = CubeMatrix.getInstance();
 		String[] dataColumn = null;
 		List<Cell> row = new ArrayList<Cell>();
 		for (int i = 0; i < dataRow.length; i++) {

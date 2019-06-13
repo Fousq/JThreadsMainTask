@@ -1,10 +1,13 @@
 package kz.zhanbolat.jthreads.entity;
 
 import java.util.Objects;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Cell {
 	private int value;
 	private boolean changable = true;
+	private Lock lock = new ReentrantLock();
 	
 	public Cell(int value, boolean changable) {
 		this.value = value;
@@ -20,7 +23,16 @@ public class Cell {
 	}
 
 	public void setValue(int value) {
-		this.value = value;
+		lock.lock();
+		try {
+			if (!changable) {
+				return;
+			}
+			this.value = value;
+			changable = false;
+		} finally {
+			lock.unlock();
+		}
 	}
 
 	public boolean isChangable() {

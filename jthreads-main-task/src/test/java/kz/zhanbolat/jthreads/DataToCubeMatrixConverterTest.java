@@ -10,7 +10,6 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.BeforeClass;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import kz.zhanbolat.jthreads.action.FileAction;
@@ -25,11 +24,13 @@ public class DataToCubeMatrixConverterTest {
 	private static Matrix matrix;
 	private static String data;
 	private static FileAction fileAction;
+	private static DataToCubeMatrixConverter converter;
 	
 	@BeforeClass
 	public static void init() {
 		try {
-			matrix = new CubeMatrix(new ArrayList<List<Cell>>() {
+			matrix = CubeMatrix.getInstance();
+			matrix.setMatrix(new ArrayList<List<Cell>>() {
 				{
 					add(new ArrayList<Cell>() {
 						{
@@ -48,6 +49,7 @@ public class DataToCubeMatrixConverterTest {
 			data = "1 5\n"
 					+ "4 2";
 			fileAction = new FileAction("data\\Matrix.txt");
+			converter = new DataToCubeMatrixConverter();
 		} catch (MatrixException e) {
 			logger.error("Error in init of matrix", e);
 		}
@@ -55,7 +57,7 @@ public class DataToCubeMatrixConverterTest {
 	
 	@Test
 	public void convertShouldBeDoneCorrectly() {
-		Matrix cubeMatrix = new DataToCubeMatrixConverter().convert(data);
+		Matrix cubeMatrix = converter.convert(data);
 		assertEquals(matrix.columnSize(), cubeMatrix.columnSize());
 		assertEquals(matrix.rowSize(), cubeMatrix.rowSize());
 		for (int i = 0; i < cubeMatrix.rowSize(); i++) {
@@ -72,7 +74,7 @@ public class DataToCubeMatrixConverterTest {
 	@Test
 	public void convertShouldBeDoneCorrectlyUsingFileAction() {
 		try {
-			Matrix cubeMatrix = new DataToCubeMatrixConverter().convert(fileAction.loadData());
+			Matrix cubeMatrix = converter.convert(fileAction.loadData());
 			assertEquals(matrix.columnSize(), cubeMatrix.columnSize());
 			assertEquals(matrix.rowSize(), cubeMatrix.rowSize());
 			for (int i = 0; i < cubeMatrix.rowSize(); i++) {

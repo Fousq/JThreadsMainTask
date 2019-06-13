@@ -41,7 +41,7 @@ public class FileAction {
 		BufferedReader bf = new BufferedReader(new FileReader(file.getPath()));
 		for (String line = bf.readLine(); line != null; line = bf.readLine()) {
 			data.append(line);
-			data.append(System.lineSeparator());
+			data.append("\n");
 		}
 		return data.toString();
 	}

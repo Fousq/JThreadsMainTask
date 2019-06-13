@@ -8,6 +8,7 @@ import static org.junit.Assert.fail;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -54,11 +55,12 @@ public class FileActionTest {
 	@Test
 	public void loadDataShouldReturnString() {
 		try {
-			String[] expected = new String[] {"aasd\r","afd\r", "123\r"};
-			fileAction.setFile("data\\Matrix.txt");
+			String[] expected = new String[] {"aasd","afd", "123"};
+			fileAction.setFile("data\\test\\FileActionTestFile.txt");
 			String data = fileAction.loadData();
 			logger.debug(data);
 			String[] dataArray = data.split("[ \n]");
+			logger.debug(Arrays.toString(dataArray));
 			assertEquals(expected.length, dataArray.length);
 			for (int i = 0; i < expected.length; i++) {
 				assertThat(expected[i], is(dataArray[i]));

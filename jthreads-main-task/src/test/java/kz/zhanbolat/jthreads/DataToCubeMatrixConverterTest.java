@@ -29,7 +29,7 @@ public class DataToCubeMatrixConverterTest {
 	@BeforeClass
 	public static void init() {
 		try {
-			matrix = CubeMatrix.getInstance();
+			matrix = new CubeMatrix();
 			matrix.setMatrix(new ArrayList<List<Cell>>() {
 				{
 					add(new ArrayList<Cell>() {
@@ -62,6 +62,8 @@ public class DataToCubeMatrixConverterTest {
 		assertEquals(matrix.rowSize(), cubeMatrix.rowSize());
 		for (int i = 0; i < cubeMatrix.rowSize(); i++) {
 			for (int j = 0; j < cubeMatrix.columnSize(); j++) {
+				logger.debug("i: " + i);
+				logger.debug("j: " + j);
 				Cell expectedCell = matrix.getCell(i, j);
 				Cell cell = cubeMatrix.getCell(i, j);
 				logger.debug("Expected cell: " + expectedCell);
@@ -74,11 +76,18 @@ public class DataToCubeMatrixConverterTest {
 	@Test
 	public void convertShouldBeDoneCorrectlyUsingFileAction() {
 		try {
+			logger.debug("-------UsingFileAction---------");
 			Matrix cubeMatrix = converter.convert(fileAction.loadData());
 			assertEquals(matrix.columnSize(), cubeMatrix.columnSize());
 			assertEquals(matrix.rowSize(), cubeMatrix.rowSize());
+			logger.debug("Size of row: " + matrix.rowSize());
+			logger.debug("Size of row: " + cubeMatrix.rowSize());
+			logger.debug("Size of column: " + matrix.columnSize());
+			logger.debug("Size of column: " + cubeMatrix.columnSize());
 			for (int i = 0; i < cubeMatrix.rowSize(); i++) {
 				for (int j = 0; j < cubeMatrix.columnSize(); j++) {
+					logger.debug("i: " + i);
+					logger.debug("j: " + j);
 					Cell expectedCell = matrix.getCell(i, j);
 					Cell cell = cubeMatrix.getCell(i, j);
 					logger.debug("Expected cell: " + expectedCell);

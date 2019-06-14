@@ -38,7 +38,6 @@ public abstract class Matrix {
 	}
 	
 	public Cell getCell(int row, int column) {
-		
 		return matrix.get(row).get(column);
 	}
 	

@@ -16,7 +16,7 @@ public class DataToCubeMatrixConverter {
 	
 	public Matrix convert(String data) {
 		String[] dataRow = data.split("[\n]");
-		Matrix matrix = CubeMatrix.getInstance();
+		Matrix matrix = new CubeMatrix();
 		String[] dataColumn = null;
 		List<Cell> row = new ArrayList<Cell>();
 		for (int i = 0; i < dataRow.length; i++) {

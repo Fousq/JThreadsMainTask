@@ -8,23 +8,13 @@ import kz.zhanbolat.jthreads.exception.CubeMatrixException;
 import kz.zhanbolat.jthreads.exception.MatrixException;
 
 public class CubeMatrix extends Matrix {
-	private static CubeMatrix instance = new CubeMatrix(); 
-	private static Lock lock = new ReentrantLock();
 	
-	private CubeMatrix() {
+	public CubeMatrix() {
 		super();
 	}
 	
-	public static CubeMatrix getInstance() {
-		lock.lock();
-		try {
-			if (instance == null) {
-				instance = new CubeMatrix();
-			}
-			return instance;
-		} finally {
-			lock.unlock();
-		}
+	public CubeMatrix(List<List<Cell>> matrix) throws MatrixException {
+		super(matrix);
 	}
 	
 	@Override

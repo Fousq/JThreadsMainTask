@@ -36,8 +36,7 @@ public class CubeMatrixTest {
 		logger.debug("Column size: " + matrix.size() + ", Row size: " + 
 					matrix.get(0).size());
 		try {
-			Matrix cubeMatrix = CubeMatrix.getInstance();
-			cubeMatrix.setMatrix(matrix);
+			Matrix cubeMatrix = new CubeMatrix(matrix);
 			for (int i = 0; i < cubeMatrix.columnSize(); i++) {
 				for (int j = 0; j < cubeMatrix.rowSize(); j++) {
 					logger.debug("Expected: " + matrix.get(i).get(j));

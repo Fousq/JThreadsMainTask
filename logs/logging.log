@@ -1,78 +1,118 @@
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:81 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:82 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:81 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:82 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:81 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:82 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:81 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:82 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:64 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:65 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:64 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:65 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:64 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:65 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:64 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:10:22 [main] DataToCubeMatrixConverterTest:65 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:12:52 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:13:19 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:13:46 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:14:10 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:15:21 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:15:44 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:15:44 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:15:44 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:15:44 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:15:44 [main] DataToCubeMatrixConverterTest:83 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:15:44 [main] DataToCubeMatrixConverterTest:84 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:82 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:83 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:82 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:83 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:82 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:83 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:82 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:83 - Cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:65 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:66 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:65 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:66 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:65 - Expected cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:66 - Cell: Cell [value=4, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:65 - Expected cell: Cell [value=2, changable=true]
-[DEBUG] 2019-06-14 00:16:10 [main] DataToCubeMatrixConverterTest:66 - Cell: Cell [value=2, changable=true]
+[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:86 - j: 2
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:66 - j: 0
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:66 - j: 1
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:21:22 [main] DataToCubeMatrixConverterTest:66 - j: 2
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:79 - -------UsingFileAction---------
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:83 - Size of column: 4
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:86 - i: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:87 - j: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:90 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:91 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:86 - i: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:87 - j: 1
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:90 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:91 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:86 - i: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:87 - j: 2
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:66 - j: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:66 - j: 1
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:22:45 [main] DataToCubeMatrixConverterTest:66 - j: 2
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:79 - -------UsingFileAction---------
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:83 - Size of column: 4
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:84 - Size of column: 4
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:87 - i: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:88 - j: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:91 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:92 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:87 - i: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:88 - j: 1
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:91 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:92 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:87 - i: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:88 - j: 2
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:66 - j: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:66 - j: 1
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:24:24 [main] DataToCubeMatrixConverterTest:66 - j: 2
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:79 - -------UsingFileAction---------
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:83 - Size of row: 2
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:84 - Size of row: 2
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:85 - Size of column: 4
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:86 - Size of column: 4
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:89 - i: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:90 - j: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:93 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:94 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:89 - i: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:90 - j: 1
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:93 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:94 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:89 - i: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:90 - j: 2
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:66 - j: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:66 - j: 1
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:24:57 [main] DataToCubeMatrixConverterTest:66 - j: 2
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:79 - -------UsingFileAction---------
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:83 - Size of row: 2
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:84 - Size of row: 2
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:85 - Size of column: 2
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:86 - Size of column: 2
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:89 - i: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:90 - j: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:93 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:94 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:89 - i: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:90 - j: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:93 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:94 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:89 - i: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:90 - j: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:93 - Expected cell: Cell [value=4, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:94 - Cell: Cell [value=4, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:89 - i: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:90 - j: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:93 - Expected cell: Cell [value=2, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:94 - Cell: Cell [value=2, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:66 - j: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=1, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:65 - i: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:66 - j: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=5, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:65 - i: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:66 - j: 0
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=4, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=4, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:65 - i: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:66 - j: 1
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:69 - Expected cell: Cell [value=2, changable=true]
+[DEBUG] 2019-06-14 22:31:31 [main] DataToCubeMatrixConverterTest:70 - Cell: Cell [value=2, changable=true]

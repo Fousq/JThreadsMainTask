@@ -1,118 +1,150 @@
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:36 - Column size: 4, Row size: 4
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=194, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=194, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=261, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=261, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=496, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=496, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=401, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=401, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=361, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=361, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=915, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=915, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=291, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=291, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=927, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=927, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=79, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=79, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=297, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=297, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=989, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=989, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=438, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=438, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=648, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=648, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=971, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=971, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=974, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=974, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:43 - Expected: Cell [value=495, changable=true]
-[DEBUG] 2019-06-14 22:12:27 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=495, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:13:16 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:15:02 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:84 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:85 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:07 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:77 - -------UsingFileAction---------
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:85 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:86 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:85 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:86 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:17:33 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:36 - Column size: 4, Row size: 4
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=581, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=581, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=156, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=156, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=812, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=812, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=542, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=542, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=113, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=113, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=755, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=755, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=636, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=636, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=442, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=442, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=987, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=987, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=292, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=292, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=708, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=708, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=324, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=324, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=326, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=326, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=385, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=385, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=822, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=822, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:43 - Expected: Cell [value=987, changable=true]
-[DEBUG] 2019-06-14 22:18:28 [main] CubeMatrixTest:44 - In cube matrix: Cell [value=987, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:77 - -------UsingFileAction---------
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:85 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:86 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:85 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:86 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:67 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:20:18 [main] DataToCubeMatrixConverterTest:68 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:79 - -------UsingFileAction---------
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:85 - i: 0
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:86 - j: 0
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:89 - Expected cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:90 - Cell: Cell [value=1, changable=true]
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:85 - i: 0
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:86 - j: 1
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:89 - Expected cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:90 - Cell: Cell [value=5, changable=true]
-[DEBUG] 2019-06-14 22:21:21 [main] DataToCubeMatrixConverterTest:85 - i: 0
+[INFO ] 2019-06-15 00:44:22 [Thread-0] Handler:49 - Changed by thread: Thread-0
+[DEBUG] 2019-06-15 00:44:22 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[INFO ] 2019-06-15 00:44:22 [Thread-3] Handler:44 - Cell's value before: 785
+[INFO ] 2019-06-15 00:44:22 [Thread-3] Handler:48 - Cell's value now: 58
+[INFO ] 2019-06-15 00:44:22 [Thread-3] Handler:49 - Changed by thread: Thread-3
+[DEBUG] 2019-06-15 00:44:22 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[INFO ] 2019-06-15 00:44:22 [Thread-1] Handler:44 - Cell's value before: 881
+[INFO ] 2019-06-15 00:44:22 [Thread-1] Handler:48 - Cell's value now: 75
+[INFO ] 2019-06-15 00:44:22 [Thread-1] Handler:49 - Changed by thread: Thread-1
+[DEBUG] 2019-06-15 00:44:22 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:51 - Thread-0Got a handler
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:86 - Thread-2Got a handler
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:101 - Thread-3Got a handler
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:54 - Some letter
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:67 - Thread-1Got a handler
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-2] Handler:44 - Cell's value before: 308
+[INFO ] 2019-06-15 00:45:25 [Thread-2] Handler:48 - Cell's value now: 66
+[INFO ] 2019-06-15 00:45:25 [Thread-2] Handler:49 - Changed by thread: Thread-2
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-3] Handler:44 - Cell's value before: 116
+[INFO ] 2019-06-15 00:45:25 [Thread-3] Handler:48 - Cell's value now: 28
+[INFO ] 2019-06-15 00:45:25 [Thread-3] Handler:49 - Changed by thread: Thread-3
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-0] Handler:44 - Cell's value before: 704
+[INFO ] 2019-06-15 00:45:25 [Thread-0] Handler:48 - Cell's value now: 75
+[INFO ] 2019-06-15 00:45:25 [Thread-0] Handler:49 - Changed by thread: Thread-0
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-1] Handler:44 - Cell's value before: 593
+[INFO ] 2019-06-15 00:45:25 [Thread-1] Handler:48 - Cell's value now: 74
+[INFO ] 2019-06-15 00:45:25 [Thread-1] Handler:49 - Changed by thread: Thread-1
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-2] Handler:44 - Cell's value before: 1
+[INFO ] 2019-06-15 00:45:25 [Thread-2] Handler:48 - Cell's value now: 86
+[INFO ] 2019-06-15 00:45:25 [Thread-2] Handler:49 - Changed by thread: Thread-2
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-3] Handler:44 - Cell's value before: 922
+[INFO ] 2019-06-15 00:45:25 [Thread-3] Handler:48 - Cell's value now: 90
+[INFO ] 2019-06-15 00:45:25 [Thread-3] Handler:49 - Changed by thread: Thread-3
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-0] Handler:44 - Cell's value before: 848
+[INFO ] 2019-06-15 00:45:25 [Thread-0] Handler:48 - Cell's value now: 73
+[INFO ] 2019-06-15 00:45:25 [Thread-0] Handler:49 - Changed by thread: Thread-0
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[INFO ] 2019-06-15 00:45:25 [Thread-1] Handler:44 - Cell's value before: 984
+[INFO ] 2019-06-15 00:45:25 [Thread-1] Handler:48 - Cell's value now: 50
+[INFO ] 2019-06-15 00:45:25 [Thread-1] Handler:49 - Changed by thread: Thread-1
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:25 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:51 - Thread-0Got a handler
+[DEBUG] 2019-06-15 00:45:34 [Thread-1] Handler:67 - Thread-1Got a handler
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:101 - Thread-3Got a handler
+[DEBUG] 2019-06-15 00:45:34 [Thread-2] Handler:86 - Thread-2Got a handler
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:54 - Some letter
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-3] Handler:44 - Cell's value before: 430
+[INFO ] 2019-06-15 00:45:34 [Thread-3] Handler:48 - Cell's value now: 84
+[INFO ] 2019-06-15 00:45:34 [Thread-3] Handler:49 - Changed by thread: Thread-3
+[DEBUG] 2019-06-15 00:45:34 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-2] Handler:44 - Cell's value before: 698
+[INFO ] 2019-06-15 00:45:34 [Thread-2] Handler:48 - Cell's value now: 79
+[INFO ] 2019-06-15 00:45:34 [Thread-2] Handler:49 - Changed by thread: Thread-2
+[DEBUG] 2019-06-15 00:45:34 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-1] Handler:44 - Cell's value before: 170
+[INFO ] 2019-06-15 00:45:34 [Thread-1] Handler:48 - Cell's value now: 11
+[INFO ] 2019-06-15 00:45:34 [Thread-1] Handler:49 - Changed by thread: Thread-1
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-0] Handler:44 - Cell's value before: 644
+[INFO ] 2019-06-15 00:45:34 [Thread-0] Handler:48 - Cell's value now: 95
+[INFO ] 2019-06-15 00:45:34 [Thread-0] Handler:49 - Changed by thread: Thread-0
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-3] Handler:44 - Cell's value before: 500
+[INFO ] 2019-06-15 00:45:34 [Thread-3] Handler:48 - Cell's value now: 25
+[INFO ] 2019-06-15 00:45:34 [Thread-3] Handler:49 - Changed by thread: Thread-3
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-2] Handler:44 - Cell's value before: 143
+[INFO ] 2019-06-15 00:45:34 [Thread-2] Handler:48 - Cell's value now: 67
+[INFO ] 2019-06-15 00:45:34 [Thread-2] Handler:49 - Changed by thread: Thread-2
+[DEBUG] 2019-06-15 00:45:34 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-1] Handler:44 - Cell's value before: 138
+[INFO ] 2019-06-15 00:45:34 [Thread-1] Handler:48 - Cell's value now: 59
+[INFO ] 2019-06-15 00:45:34 [Thread-1] Handler:49 - Changed by thread: Thread-1
+[DEBUG] 2019-06-15 00:45:34 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[INFO ] 2019-06-15 00:45:34 [Thread-0] Handler:44 - Cell's value before: 82
+[INFO ] 2019-06-15 00:45:34 [Thread-0] Handler:48 - Cell's value now: 61
+[INFO ] 2019-06-15 00:45:34 [Thread-0] Handler:49 - Changed by thread: Thread-0
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:37 - Thread-3 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-2] Handler:37 - Thread-2 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:52 - Thread-3 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-2] Handler:52 - Thread-2 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-1] Handler:37 - Thread-1 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-1] Handler:52 - Thread-1 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:37 - Thread-0 entered the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-0] Handler:52 - Thread-0 get out of the handle fun.
+[DEBUG] 2019-06-15 00:45:34 [Thread-3] Handler:37 - Thread-3 entered the handle fun.

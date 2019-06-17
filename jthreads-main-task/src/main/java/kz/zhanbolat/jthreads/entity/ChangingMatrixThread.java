@@ -31,5 +31,13 @@ public class ChangingMatrixThread extends Thread {
 				}
 		}
 	}
+
+	public Matrix getMatrix() {
+		return matrix;
+	}
+
+	public void setMatrix(Matrix matrix) {
+		this.matrix = matrix;
+	}
 	
 }

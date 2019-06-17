@@ -35,6 +35,7 @@ public class Handler {
 		logger.debug(thread.getName() + " entered the handle fun.");
 		try {
 			if (countOfChanges == matrix.columnSize()) {
+				logger.info("Found no cell to change");
 				return;
 			}
 			logger.debug("Count of changes: " + countOfChanges);

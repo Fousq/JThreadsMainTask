@@ -27,11 +27,11 @@ public class DataValidatorTest {
 	@Test
 	public void returnTrue() {
 		StringBuilder data = new StringBuilder("8\n4");
-		assertTrue(validator.isValid(data.toString()));
+		assertTrue(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder("12\n6");
-		assertTrue(validator.isValid(data.toString()));
+		assertTrue(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder("8\n4\n");
-		assertTrue(validator.isValid(data.toString()));
+		assertTrue(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
@@ -41,7 +41,7 @@ public class DataValidatorTest {
 		}
 		data.append(4);
 		logger.debug(data.toString());
-		assertTrue(validator.isValid(data.toString()));
+		assertTrue(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 12; i++) {
 			for (int j = 0; j < 12; j++) {
@@ -51,23 +51,23 @@ public class DataValidatorTest {
 		}
 		data.append(6);
 		logger.debug(data.toString());
-		assertTrue(validator.isValid(data.toString()));
+		assertTrue(validator.isValidToConvertToMatrix(data.toString()));
 	}
 	
 	@Test
 	public void returnFalse() {
 		StringBuilder data = new StringBuilder("7\n4");
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder("8\n3");
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder("13\n4");
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder("12\n7");
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder("13\n7");
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder("\n12\n4\n");
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToGenerateMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 7; i++) {
 			for (int j = 0; j < 7; j++) {
@@ -76,7 +76,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(4);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 7; j++) {
@@ -85,7 +85,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(4);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 7; i++) {
 			for (int j = 0; j < 8; j++) {
@@ -94,7 +94,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(4);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 13; i++) {
 			for (int j = 0; j < 13; j++) {
@@ -103,7 +103,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(4);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 12; i++) {
 			for (int j = 0; j < 13; j++) {
@@ -112,7 +112,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(4);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 13; i++) {
 			for (int j = 0; j < 12; j++) {
@@ -121,7 +121,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(4);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
@@ -130,7 +130,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(3);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
@@ -139,7 +139,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(7);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 		data = new StringBuilder();
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
@@ -152,7 +152,7 @@ public class DataValidatorTest {
 			data.append("\n");
 		}
 		data.append(6);
-		assertFalse(validator.isValid(data.toString()));
+		assertFalse(validator.isValidToConvertToMatrix(data.toString()));
 	}
 	
 }

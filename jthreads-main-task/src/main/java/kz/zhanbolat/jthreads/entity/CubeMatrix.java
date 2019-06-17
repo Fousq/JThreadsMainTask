@@ -1,6 +1,7 @@
 package kz.zhanbolat.jthreads.entity;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -25,6 +26,21 @@ public class CubeMatrix extends Matrix {
 			throw new CubeMatrixException("matrix is not a cube matrix.");
 		}
 		super.setMatrix(matrix);
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		return super.equals(obj);
+	}
+	
+	@Override
+	public int hashCode() {
+		return super.hashCode();
 	}
 	
 }

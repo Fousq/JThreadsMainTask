@@ -32,7 +32,11 @@ public class DataToCubeMatrixConverter {
 			for (int j = 0; j < dataColumn.length; j++) {
 				int value;
 				value = Integer.parseInt(dataColumn[j]);
-				row.add(new Cell(value));
+				if (i == j) {
+					row.add(new Cell(value));
+				} else {
+					row.add(new Cell(value, false));
+				}
 			}
 			matrix.add(new ArrayList<>(row));
 			row.clear();

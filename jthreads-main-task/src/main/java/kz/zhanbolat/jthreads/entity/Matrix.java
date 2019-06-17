@@ -3,6 +3,7 @@ package kz.zhanbolat.jthreads.entity;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 import kz.zhanbolat.jthreads.exception.MatrixException;
 
@@ -47,6 +48,35 @@ public abstract class Matrix {
 	
 	public int columnSize() {
 		return matrix.size();
+	}
+	
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		for (int i = 0; i < columnSize(); i++) {
+			for (int j = 0; j < rowSize(); j++) {
+				builder.append(getCell(i, j).getValue() + " ");
+			}
+			builder.append("\n");
+		}
+		return builder.toString();
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(matrix);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Matrix other = (Matrix) obj;
+		return Objects.equals(matrix, other.matrix);
 	}
 	
 }

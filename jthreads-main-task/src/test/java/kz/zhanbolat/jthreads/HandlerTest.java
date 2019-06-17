@@ -1,7 +1,5 @@
 package kz.zhanbolat.jthreads;
 
-import static org.junit.Assert.fail;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -12,14 +10,14 @@ import org.apache.logging.log4j.Logger;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import kz.zhanbolat.jthreads.action.Handler;
 import kz.zhanbolat.jthreads.entity.Cell;
 import kz.zhanbolat.jthreads.entity.CubeMatrix;
-import kz.zhanbolat.jthreads.entity.Handler;
 import kz.zhanbolat.jthreads.entity.Matrix;
 import kz.zhanbolat.jthreads.exception.MatrixException;
 
 public class HandlerTest {
-	private static Logger logger = LogManager.getLogger(Handler.class);
+	private static Logger logger = LogManager.getLogger(HandlerTest.class);
 	private static Matrix cubeMatrix;
 	
 	@BeforeClass

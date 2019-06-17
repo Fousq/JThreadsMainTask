@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import kz.zhanbolat.jthreads.action.Handler;
+
 public class ChangingMatrixThread extends Thread {
 	private static Logger logger = LogManager.getLogger(ChangingMatrixThread.class);
 	private Matrix matrix;

@@ -1,12 +1,14 @@
-package kz.zhanbolat.jthreads.entity;
+package kz.zhanbolat.jthreads.action;
 
 import java.util.Random;
-import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import kz.zhanbolat.jthreads.entity.Cell;
+import kz.zhanbolat.jthreads.entity.Matrix;
 
 public class Handler {
 	private static Logger logger = LogManager.getLogger(Handler.class);

@@ -17,6 +17,7 @@ import kz.zhanbolat.jthreads.converter.DataToCubeMatrixConverter;
 import kz.zhanbolat.jthreads.entity.Cell;
 import kz.zhanbolat.jthreads.entity.CubeMatrix;
 import kz.zhanbolat.jthreads.entity.Matrix;
+import kz.zhanbolat.jthreads.exception.CubeMatrixException;
 import kz.zhanbolat.jthreads.exception.MatrixException;
 
 public class DataToCubeMatrixConverterTest {
@@ -57,7 +58,13 @@ public class DataToCubeMatrixConverterTest {
 	
 	@Test
 	public void convertShouldBeDoneCorrectly() {
-		Matrix cubeMatrix = converter.convert(data);
+		Matrix cubeMatrix = null;
+		try {
+			cubeMatrix = converter.convert(data);
+		} catch (MatrixException e) {
+			logger.error("Error in converting.", e);
+			fail();
+		}
 		assertEquals(matrix.columnSize(), cubeMatrix.columnSize());
 		assertEquals(matrix.rowSize(), cubeMatrix.rowSize());
 		for (int i = 0; i < cubeMatrix.rowSize(); i++) {
@@ -95,8 +102,8 @@ public class DataToCubeMatrixConverterTest {
 					assertEquals(expectedCell.getValue(),cell.getValue());
 				}
 			}
-		} catch (IOException e) {
-			logger.error("Error in file.", e);
+		} catch (IOException | MatrixException e) {
+			logger.error("Error in file or converting.", e);
 			fail();
 		}
 	}

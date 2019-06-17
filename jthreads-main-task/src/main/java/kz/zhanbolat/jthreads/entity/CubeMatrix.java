@@ -8,6 +8,8 @@ import kz.zhanbolat.jthreads.exception.CubeMatrixException;
 import kz.zhanbolat.jthreads.exception.MatrixException;
 
 public class CubeMatrix extends Matrix {
+	public static final int MIN_SIZE_OF_MATRIX = 8;
+	public static final int MAX_SIZE_OF_MATRIX = 12;
 	
 	public CubeMatrix() {
 		super();

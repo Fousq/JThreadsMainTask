@@ -49,8 +49,4 @@ public abstract class Matrix {
 		return matrix.size();
 	}
 	
-	public void add(List<Cell> row) {
-		matrix.add(row);
-	}
-	
 }

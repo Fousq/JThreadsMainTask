@@ -12,12 +12,10 @@ public class Handler {
 	private static Logger logger = LogManager.getLogger(Handler.class);
 	private static Handler instance;
 	private static Lock lock = new ReentrantLock();
-	private final int MAX_QUANTITY_OF_THREADS = 6;
-	private static Semaphore semaphore;
-	private int countOfChanges = 0;
+	private static int countOfChanges = 0;
 	
 	private Handler() {
-		semaphore = new Semaphore(MAX_QUANTITY_OF_THREADS);
+		
 	}
 	
 	public static Handler getInstance() {
@@ -39,6 +37,7 @@ public class Handler {
 			if (countOfChanges == matrix.columnSize()) {
 				return;
 			}
+			logger.debug("Count of changes: " + countOfChanges);
 			int index = countOfChanges;
 			Cell cell = matrix.getCell(index, index);
 			logger.info("Cell's value before: " + cell.getValue());
